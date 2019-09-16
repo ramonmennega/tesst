@@ -1,0 +1,51 @@
+<html>
+<head>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    
+        <header onclick="location.href='index.html'">
+               
+                        
+                            Tic tac toe
+                        
+                     
+                      
+                    
+            </header>
+<table>
+  <tr>
+    <td class="vakje" value=""></td>
+    <td class="vert vakje"></td>
+    <td class="vakje"></td>
+  </tr>
+  <tr>
+    <td class="hori vakje"></td>
+    <td class="vert hori vakje"></td>
+    <td class="hori vakje"></td>
+  </tr>
+  <tr>
+    <td class="vakje"></td>
+    <td class="vert vakje"></td> 
+    <td class="vakje"></td>
+  </tr>
+</table>
+<div id="popmenu">
+<p id="speler"></p>
+<p id="winner"></p>
+
+<p id="restart" onclick="restarter()"></p>
+<p id="quit" onclick="location.href='index.html'"></p>
+</div>
+<div id="popmenu2">
+      <ul id="chats">
+
+      </ul>
+      <input id="chat" type="text"><button onclick="sendChat()">Send</button>
+    </div>
+</body>
+<script src="//cdn.rapidsockets.com/sdk/js/rapidsockets.0.0.9.min.js"></script>
+
+    <script src="game.js"></script>
+
+</html>

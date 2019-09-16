@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header{
+    background-color: #4488e0;
+    width: 100vw;
+    line-height: 80px;
+    height: 80px;
+    margin: 0;
+}
+
+#pageTitle{
+    text-align: center;
+    width: 70vw;
+    font-size: 40px;
+}
+
+header nav{
+
+}
+
+header nav ul{
+    list-style: none;
+    margin: 0;
+}
+
+header nav ul li{
+    float: left;
+    color: white;
+    width: 25vw;
+    text-align: center;
+
+    
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.game{
+    width: 180px;
+    height: 120px;
+    border: 1px solid black;
+    float: left;
+    margin: 5px;
+}
+
+.gameHead{
+    border-bottom: solid 1px black;
+    text-align: center;
+}
+
+.gameBody{
+ text-align: center;
+ 
+}
+
+.gameBody:hover{
+    cursor: pointer;
+    color: #4488e0;
+}
+

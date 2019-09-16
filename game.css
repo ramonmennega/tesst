@@ -1,0 +1,113 @@
+h1 {
+  text-align: center;
+}
+td {
+  width: 100px;
+  height: 100px;
+}
+table {
+float: none;
+  text-align: center;
+  font-size: 60px;
+  margin: 120px auto;
+}
+.vert {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+.hori {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-weight: lighter;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header{
+  background-color: #4488e0;
+  width: 100vw;
+  line-height: 80px;
+  height: 80px;
+  margin: 0;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+header nav{
+  width: 100vw;
+  text-align: center;
+
+}
+
+header nav ul{
+    list-style: none;
+
+    margin: 0;
+}
+header nav ul li{
+  float: left;
+  color: white;
+
+  
+}
+
+#popmenu{
+  position: fixed;
+  right: 20px;
+  top: 150px;
+  width: 230px;
+  height: 300px;
+  border: solid 1px black;
+  float: right;
+  text-align: center;
+  font-size: 16px;
+  
+}
+#popmenu2{
+  position: fixed;
+  left: 20px;
+  top: 150px;
+  width: 230px;
+  height: 300px;
+  border: solid 1px black;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  
+}
+
+#popmenu2 ul{
+  height: 220px;
+  padding: 0;
+  overflow-x: hidden;
+  list-style: none;
+}
+
+#popmenu2 ul li{
+  text-align: left;
+  border: 1px solid #4488e0;
+}
+
+#restart:hover{
+  cursor: pointer;
+  color: #4488e0;
+}
+
+#quit:hover{
+  cursor: pointer;
+  color: #4488e0;
+}
+
+#winner{
+  font-size: 22px;
+}
+
+#speler{
+  font-size: 25px;
+}
